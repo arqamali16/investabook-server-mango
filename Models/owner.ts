@@ -1,6 +1,9 @@
 import pool from '../db';
 import bcrypt from 'bcrypt';
 
+/**
+ * @class Owner class for modeling data
+ */
 class Owner {
 	name: string;
 	email: any;
